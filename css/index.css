@@ -1,0 +1,66 @@
+body,div,ol,ul,li,dl,dt,dd,a,span,strong,var,em,p,h1,h2,h3,img,input,table,tr,th,td{font-size:18px;font-family:宋体,Arial,tahoma,sans-serif; font-family:"微软雅黑";margin:0px auto;padding:0px;}
+ul,ol{list-style:none;}
+.clear{clear:both;height:0px; width:0px;overflow:hidden;}
+.left{ float:left;}
+.right{ float:right;}
+body{ background-color:#fff; overflow:hidden;}
+
+.outside{ height:720px; overflow:hidden; background-color:#fbf8ef; width:960px; position:relative; }
+.titlemess{ width:600px; margin:0px auto; text-align:center;  overflow:hidden; line-height:50px; }
+
+.titlemess p{font-size:30px; }
+.btntype{ position:absolute; top:200px; left:50px;/* background-color:#CCC; padding:20px;*/}
+.btntype li{ width:100px; height:50px; line-height:50px; color:#fff; font-size:30px; margin-bottom:20px; border-radius:5px; text-align:center; background-color:#999; overflow:hidden; cursor:pointer;}
+
+
+.main{ width:527px; height:527px;border-radius:20px; overflow:hidden; background-color:#baaea0; position:relative;}
+
+.bg{ padding:19px 6px 6px 19px;/*background-color:#baad9a;*/}
+.bg ul{  overflow:hidden;}
+.bg li{ width:112px; height:112px; float:left; margin:0px 13px 13px 0px; border-radius:8px; line-height:112px; overflow:hidden;}
+.bg .ulbg li{ background-color:#c9c2b0;}
+
+.yidong{ position:absolute;width:527px; height:527px; top:19px;}
+.yidong li{ position:absolute;font-weight:bold; font-size:64px;text-align:center; border-radius:8px; -webkit-transition: left 0.2s linear;-webkit-transition: top 0.2s linear;/*animation: pound1 .8s infinite;*/}
+.yidong .set_0{ color:#fff; background-color:#f2cb64;}
+.yidong .set_2{ color:#6a6255; background-color:#ede4db;}
+.yidong .set_4{ color:#6a6255; background-color:#efdfc6;}
+.yidong .set_8{ color:#fff; background-color:#f5b06f;}
+.yidong .set_16{ color:#fff; background-color:#f5985b;}
+.yidong .set_32{ color:#fff; background-color:#fa785e;}
+.yidong .set_64{ color:#fff; background-color:#f85c36;}
+.yidong .set_128{ color:#fff; background-color:#f6d15d; font-size:58px;}
+.yidong .set_256{ color:#fff; background-color:#ffc845; font-size:58px;}
+.yidong .set_512{ color:#fff; background-color:#ffb81d; font-size:58px;}
+.yidong .set_1024{ color:#fff; background-color:#ffae00; font-size:40px;}
+.yidong .set_2048{ color:#fff; background-color:#edc22e; font-size:40px;}
+.yidong .set_4096{ color:#fff; background-color:#b884ac; font-size:40px;}
+.yidong .set_8192{ color:#fff; background-color:#b06da9; font-size:40px;}
+
+.yidong .kuang_1 li{ font-size:48px;}
+.yidong .kuang_2 li{ font-size:48px;}
+.yidong .kuang_3 li{ font-size:48px;}
+.yidong .kuang_2 li.set_32,.yidong .kuang_2 li.set_64,.yidong .kuang_2 li.set_8192{ font-size:34px;}
+.yidong .kuang_3 li.set_2048{ font-size:26px;}
+
+.message{ width:527px; height:527px; overflow:hidden; background-color:#000; opacity:0.7; position:absolute; top:0px; z-index:40;}
+.message .mg{ position:absolute; z-index:50;width:527px;  padding-top:70px;}
+.message .mg p{ text-align:center; color:#fff; font-size:30px;line-height:60px;}
+.message .mg ul{width:527px;}
+.message .mg li{ width:150px; height:42px; line-height:42px; border-radius:10px; margin-top:100px;  text-align:center; color:#fff; font-size:30px; background-color:#E8791E;background-color:#D63905; overflow:hidden;animation: pound .9s infinite; cursor:pointer;}
+
+
+@keyframes pound {
+    from { transform: none; }
+    50% { transform: scale(1.2); }
+    to { transform: none; }
+}
+
+@keyframes pound1 {
+    from { transform: none; }
+	20% { transform: scale(1.1); }
+    40% { transform: scale(0.5); }
+	60% { transform: scale(1.0); }
+	80% { transform: scale(0.9); }
+    to { transform: none; }
+}
